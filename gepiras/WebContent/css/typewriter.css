@@ -1,0 +1,12 @@
+/*
+ * Additional styles from typewriter learning program.
+ */
+ 
+body {
+  background-color: #ffdfd;
+}
+ 
+.tw-bg {
+  background-image: url('/img/icon/gepiras-310.png');
+  background-repeat: no-repeat;
+}

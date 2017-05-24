@@ -28,3 +28,11 @@ Tables
 	LESSONS: title, letter linking exercises, word exercises, text copy 1 min, text copy 2 mins, text copy 3 mins
 	SAYINGS: ad-hoc sayings (e.g. Practice makes the master!) 
 
+Backgrounds:
+	antiquewhite
+	azure
+	floralwhite
+	ghostwhite
+	mintcream
+	seashell
+	snow

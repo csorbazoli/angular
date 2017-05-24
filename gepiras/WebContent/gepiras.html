@@ -25,18 +25,22 @@
 	<!-- ****** faviconit.com favicons ****** -->
 	<!-- css source: http://netdna.bootstrapcdn.com/bootstrap/3.1.1-->
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/typewriter.css" rel="stylesheet">
 	<!-- AngularJS: https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js -->
 	<script src="/js/angular.min.js"></script>
 	<script src="js/typewriter.js"></script>
 	<script src="js/test.js"></script>
 
-<body>
-	<div class="container" ng-app="mainWindow" ng-controller="MainController as main">
-  		<h1>Gépírás oktató program</h1>
+<body ng-app="mainWindow">
+	<div class="container" ng-controller="MainController as main">
+  		<h1 class="text-center">Gépírás oktató program</h1>
   		<p class="well lead">Válaszd ki a profilodat, vagy készíts egy újat!</p>
   		<p class="text-center text-info">
     		Profil: <select ng-model="profil"><option ng-repeat="p in main.profiles">{{p.name}}</option></select>
     		&nbsp;<button class="btn" ng-click="main.selectProfile()">Start</button>
+  		</p>
+  		<p class="text-center text-info">
+    		<img src="/img/icon/gepiras-310.png" ng-click="main.selectProfile()"/>
   		</p>
 	</div>
 
